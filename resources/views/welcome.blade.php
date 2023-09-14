@@ -91,7 +91,7 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Pimbástico</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic suscipit nulla at consequatur quam amet similique facilis unde sunt, iure doloribus velit libero obcaecati earum aspernatur culpa nemo necessitatibus ipsam!
                                 </p>
                             </div>
 
