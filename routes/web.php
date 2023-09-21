@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/teste', function () {
+    return "TEST1";
+});
+
+Route::get('/lista-usuarios', function () {
+    $usuarios = User::all(); ##variável listar todos os usuários da tabela User.
+
+   ## dd($usuarios); ##para verificar se a informação está sendo puxada.
+
+    return view('listaUsuarios', compact('usuarios'));  #entre aspas simples, puxando da listaUsuarios.blade.php em views. //compact serve para puxar a informação
+})->name('lista-usuarios');
