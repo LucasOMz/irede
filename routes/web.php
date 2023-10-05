@@ -29,3 +29,6 @@ Route::get('/lista-usuarios', function () {
 
     return view('listaUsuarios', compact('usuarios'));  #entre aspas simples, puxando da listaUsuarios.blade.php em views. //compact serve para puxar a informação
 })->name('lista-usuarios');
+
+
+Route::view('/cadastra-usuario','cadastraUsuarios');
